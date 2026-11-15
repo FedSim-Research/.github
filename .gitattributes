@@ -1,0 +1,6 @@
+* text=auto
+*.md text eol=lf
+/LICENSE text eol=lf
+# Preserve the official license text, including its whitespace.
+/LICENSE -whitespace
+*.png binary
